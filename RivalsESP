@@ -161,7 +161,7 @@ UserInputService.InputBegan:Connect(function(Input)
         
         if _G.SendNotifications == true then
             game:GetService("StarterGui"):SetCore("SendNotification",{
-                Title = "Exunys Developer";
+                Title = "Slapping Developer";
                 Text = "The ESP's visibility is now set to "..tostring(_G.ESPVisible)..".";
                 Duration = 5;
             })
@@ -176,7 +176,7 @@ end)
 if Success and not Errored then
     if _G.SendNotifications == true then
         game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "Exunys Developer";
+            Title = "Slapping Developer";
             Text = "ESP script has successfully loaded.";
             Duration = 5;
         })
